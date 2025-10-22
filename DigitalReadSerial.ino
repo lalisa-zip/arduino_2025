@@ -56,9 +56,10 @@ void loop() {
     digitalWrite(GledPin, HIGH);
     digitalWrite(BledPin, LOW);
   }
-    else if(ledcolor == 3){  //somehow still blue??? like what-
+    else if(ledcolor == 3){  
     digitalWrite(RledPin, HIGH);
     digitalWrite(GledPin, LOW);
     digitalWrite(BledPin, LOW);
   }
 }
+
